@@ -194,3 +194,64 @@ footer {
 footer p {
   margin: 5px 0; 
 }
+/* 📱 Tablet screens and smaller */
+@media (max-width: 768px) {
+  #intro h1 {
+    font-size: 10vw;
+    line-height: 1.2em;
+  }
+
+  #about {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #about h2 {
+    width: 100%;
+    font-size: 22px;
+    line-height: 1.5em;
+  }
+
+  #aboutpart2 {
+    width: 100%;
+    border-left: none;
+    border-top: 2px solid black;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-item {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+/* 📱 Very small phones */
+@media (max-width: 480px) {
+  #nav h3 {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  #place {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+  }
+
+  #intro h1 {
+    font-size: 12vw;
+  }
+
+  #about h2 {
+    font-size: 18px;
+  }
+}
